@@ -1,0 +1,255 @@
+*{
+    margin: 0;padding: 0;
+}
+a:hover{
+    text-underline-offset:auto ;
+}
+
+.upperbgi{
+    background-image:linear-gradient(to right, #00b09b, #96c93d);
+}
+#navbar {
+    background-image:linear-gradient(to right, #00b09b, #96c93d);;
+    text-align: center;
+    font: size 500px;
+    top: 0px;
+    z-index: 100;
+}
+
+#navbar ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    font: size 15px;
+
+}
+
+#navbar ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+}
+#navbar ul li a :hover{
+    color: aqua;
+}
+.logo{
+    display: flex;
+}
+
+
+h3{
+    background-color: yellow;
+    font-size: 3vw;
+    text-align: center;
+    font-stretch: extra-expanded;
+}
+
+
+#aboutus,#aboutus b{
+    font-size: 3vw;
+    text-align: justify;
+}
+
+#aboutus h1{
+    font-size: 3vw;
+    text-align: center;
+}
+#ourmission h1{
+    font-size: 3vw;
+    text-align: center;
+}
+#ourmission p{
+    font-size: 3vw;
+}
+#gallery{
+    text-align: center;
+    font-weight: 300;
+}
+
+#features,#features li {
+    text-align: left;
+    padding-left: 3vw;
+    color: black;
+    font-size: 3vw;
+}
+
+#features h1{
+    color:black;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.container{
+    min-width: 100vw;
+}
+
+.herobox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 100px;
+}
+
+.left{
+    margin-left: 50px;
+    background-color: green,white;
+}
+
+.welcome{
+    color: red;
+    margin-bottom: 8px;
+    font-weight: 550;
+    font-size: 7vw;
+}
+
+.left h1{
+    font-size: 40px;
+    margin-bottom: 8px;
+    line-height: 44px;
+}
+
+.msg{
+    margin-bottom: 25px;
+    font-size: xx-large;
+}
+
+.btn1{
+    background-color: rgb(243, 232, 26);
+    padding:10px ;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius:  40px; 
+    position: relative;
+    left: 11vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn1 a{
+    list-style-type:none;
+    text-decoration: none;
+    color: rgb(6, 80, 11);
+}
+.btn1:hover{
+    background-color:aqua;
+}
+
+
+/* ****************************testimonial******************************* */
+
+#testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 100px;
+    padding-bottom: 100px;
+    background-color: no color;
+}
+
+.test1{
+    padding-bottom: 40px;
+    font-size: 2vw;
+}
+
+.test2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px ;
+
+}
+
+/* ******************************footer area ************************************************* */
+
+.footerarea{
+    border: 2vw;
+    border-color: red;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 26px;
+    background-color:black;
+
+}
+
+.fp,.followus,.address{
+    font: bold;
+    font-size: xx-large
+    list-style-type:none;
+    text-decoration:none;
+}
+
+.pfp,.paddress,.pfollowus{
+    font-size: xx-large;
+    color: brown;
+}
+.footerarea ul li a{
+    list-style-type:none;
+    text-decoration: none;
+    color: rgb(6, 80, 11);
+}
+
+
+/* ************************************newsletter************************************* */
+
+form {
+    
+    font-family: Arial;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top:10px ;
+    margin-bottom:10px ;
+    border-color: #04AA6D;
+    border-style: groove;
+    border-radius: 10px;
+    border-width: 8px;
+    background-color: black;
+  }
+  
+  .newsletter {
+    padding: 2px;
+    background-image:linear-gradient(to right, #b04100, #96c93d);
+    font-size: large;
+    text-align: center;
+  }
+  
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: #117b54;
+    color: white;
+    border: 2px;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+  #newsletter{
+    padding-top: 4px;
+  }
+
+/* *************************footer********************************** */
+footer{
+    text-align: center;
+    background-color:black;
+    color: wheat;
+    height: 25px;
+}
+.outerfooter{
+    background-color: black;
+}
+.footerarea ul li a:hover{
+    border-bottom: 3px solid #ff7a59;
+}
+#navbar ul li a:hover{
+    border-bottom: 3px solid #ff7a59;
+}
